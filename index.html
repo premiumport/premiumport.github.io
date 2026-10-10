@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Premium Port</title>
+<style>
+  :root { --bg: #FAF8F4; --surface: #FFFFFF; --ink: #1E241F; --muted: #5D655E; --line: #E2DBCF; --accent: #0B8A43; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121512; --surface: #1C201C; --ink: #ECEFE8; --muted: #A7AEA4; --line: #2A302A; --accent: #7FD9A0; }
+  }
+  html { background: var(--bg); }
+  body {
+    margin: 0 auto; max-width: 560px; padding: 56px 16px 64px; color: var(--ink); background: var(--bg);
+    font: 16px/1.6 "Pretendard", system-ui, -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  }
+  h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .muted { color: var(--muted); margin: 0; }
+  .app {
+    display: flex; gap: 16px; align-items: center; margin: 40px 0 0; padding: 16px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 20px;
+  }
+  .app img { width: 64px; height: 64px; border-radius: 15px; flex: none; }
+  .app h2 { font-size: 18px; margin: 0; }
+  .app p { margin: 2px 0 6px; color: var(--muted); font-size: 14px; }
+  a { color: var(--accent); font-size: 14px; text-decoration: none; font-weight: 600; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 14px; }
+  footer a { font-weight: 400; }
+  :lang(ko) { word-break: keep-all; }
+</style>
+</head>
+<body>
+<h1>Premium Port</h1>
+<p class="muted">프리미엄포트</p>
+
+<section class="app">
+  <img src="3x3/icon.png" alt="">
+  <div>
+    <h2>3X3</h2>
+    <p>딱 3일만. · Just 3 days. · Solo 3 días.</p>
+    <a href="3x3/">개인정보처리방침 · Privacy · Privacidad →</a>
+  </div>
+</section>
+
+<footer>
+  문의 · Contact · Contacto: <a href="mailto:premiumport.apps@gmail.com">premiumport.apps@gmail.com</a>
+</footer>
+</body>
+</html>
